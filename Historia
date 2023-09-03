@@ -1,0 +1,522 @@
+commit f57da90e21ee8537077e6b70589e478ec72a022a
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 15:02:30 2023 +0200
+
+    Usunieto Refren3.txt i zmieniono Piosenka.txt
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index dc23de3..6ac8628 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -14,4 +14,4 @@ Refren2.txt
+ 
+ Zwrotka6.txt
+ 
+-Refren3.txt
++Refren2.txt
+
+commit ae10c0aa79e62a1fd54eea63b12f851839257a50
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:48:55 2023 +0200
+
+    Revert "Usunieta 1 linie z Refren1.txt"
+    
+    This reverts commit 2eb249d942d01e4c4600ac4af5742185baeea3a9.
+
+diff --git a/Refren1.txt b/Refren1.txt
+index 184f00a..092689a 100644
+--- a/Refren1.txt
++++ b/Refren1.txt
+@@ -1,3 +1,4 @@
+ But I set fire to the rain
+ Watched it pour as I touched your face
+ Let it burn while I cried
++'Cause I heard it screamin' out your name, your name
+\ No newline at end of file
+
+commit 2eb249d942d01e4c4600ac4af5742185baeea3a9
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:47:08 2023 +0200
+
+    Usunieta 1 linie z Refren1.txt
+
+diff --git a/Refren1.txt b/Refren1.txt
+index 092689a..184f00a 100644
+--- a/Refren1.txt
++++ b/Refren1.txt
+@@ -1,4 +1,3 @@
+ But I set fire to the rain
+ Watched it pour as I touched your face
+ Let it burn while I cried
+-'Cause I heard it screamin' out your name, your name
+\ No newline at end of file
+
+commit 5b1581a8fa36109ac484dd088b8285847481c930
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:45:45 2023 +0200
+
+    Dodano Refren3.txt
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index c4645cc..dc23de3 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -14,13 +14,4 @@ Refren2.txt
+ 
+ Zwrotka6.txt
+ 
+-I set fire to the rain
+-Watched it pour as I touched your face
+-Let it burn while I cried
+-'Cause I heard it screamin' out your name, your name
+-
+-I set fire to the rain
+-And I threw us into the flames
+-When we fell, something died
+-'Cause I knew that that was the last time, the last time
+-
++Refren3.txt
+
+commit d9ba2fab39515e28cc99cd25e20ae2d4aea1a5c6
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:44:44 2023 +0200
+
+    Dodano Zwrotka6.txt
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index f8c8126..c4645cc 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -12,10 +12,7 @@ Zwrotka5.txt
+ 
+ Refren2.txt
+ 
+-Sometimes, I wake up by the door
+-That heart you caught must be waiting for you
+-Even now when we're already over
+-I can't help myself from looking for you
++Zwrotka6.txt
+ 
+ I set fire to the rain
+ Watched it pour as I touched your face
+diff --git a/Zwrotka6.txt b/Zwrotka6.txt
+new file mode 100644
+index 0000000..148efb6
+--- /dev/null
++++ b/Zwrotka6.txt
+@@ -0,0 +1,4 @@
++Sometimes, I wake up by the door
++That heart you caught must be waiting for you
++Even now when we're already over
++I can't help myself from looking for you
+\ No newline at end of file
+
+commit 561f176a2d1f8628ba126cd5ec93494e085df5b4
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:42:09 2023 +0200
+
+    Dodano Refren2.txt
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index 8808066..f8c8126 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -10,15 +10,7 @@ Zwrotka4.txt
+ 
+ Zwrotka5.txt
+ 
+-But I set fire to the rain
+-Watched it pour as I touched your face
+-Let it burn while I cried
+-'Cause I heard it screamin' out your name, your name
+-
+-I set fire to the rain
+-And I threw us into the flames
+-When we fell, something died
+-'Cause I knew that that was the last time, the last time
++Refren2.txt
+ 
+ Sometimes, I wake up by the door
+ That heart you caught must be waiting for you
+diff --git a/Refren2.txt b/Refren2.txt
+new file mode 100644
+index 0000000..c3c8a97
+--- /dev/null
++++ b/Refren2.txt
+@@ -0,0 +1,9 @@
++But I set fire to the rain
++Watched it pour as I touched your face
++Let it burn while I cried
++'Cause I heard it screamin' out your name, your name
++
++I set fire to the rain
++And I threw us into the flames
++When we fell, something died
++'Cause I knew that that was the last time, the last time
+\ No newline at end of file
+
+commit 87b6c3dec5d60771af368819a38b575e14043f94
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:34:40 2023 +0200
+
+    Dodano Zwrotka5.txt
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index 0611787..8808066 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -6,14 +6,9 @@ Zwrotka3.txt
+ 
+ Refren1.txt
+ 
+-Zwrotka 4.txt
+-
+-'Cause there's a side to you
+-That I never knew, never knew
+-All the things you'd say
+-They were never true, never true
+-And the games you'd play
+-You would always win, always win
++Zwrotka4.txt
++
++Zwrotka5.txt
+ 
+ But I set fire to the rain
+ Watched it pour as I touched your face
+diff --git a/Zwrotka5.txt b/Zwrotka5.txt
+new file mode 100644
+index 0000000..8f0ec39
+--- /dev/null
++++ b/Zwrotka5.txt
+@@ -0,0 +1,6 @@
++'Cause there's a side to you
++That I never knew, never knew
++All the things you'd say
++They were never true, never true
++And the games you'd play
++You would always win, always win
+\ No newline at end of file
+
+commit dce551987418c36daad4edfa5bdd496973c0254f
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:23:46 2023 +0200
+
+    Dodano Zwrotka4.txt
+    i
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index e1d8ec4..0611787 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -6,10 +6,7 @@ Zwrotka3.txt
+ 
+ Refren1.txt
+ 
+-When I lay with you
+-I could stay there, close my eyes
+-Feel you here forever
+-You and me together, nothing is better
++Zwrotka 4.txt
+ 
+ 'Cause there's a side to you
+ That I never knew, never knew
+diff --git a/Zwrotka4.txt b/Zwrotka4.txt
+new file mode 100644
+index 0000000..6738165
+--- /dev/null
++++ b/Zwrotka4.txt
+@@ -0,0 +1,4 @@
++When I lay with you
++I could stay there, close my eyes
++Feel you here forever
++You and me together, nothing is better
+
+commit dfb1a91f0736284ba6397cc024c6ecb7bf07d960
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:22:27 2023 +0200
+
+    Dodano Refren1.txt
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index 7adf92c..e1d8ec4 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -4,10 +4,7 @@ Zwrotka2.txt
+ 
+ Zwrotka3.txt
+ 
+-But I set fire to the rain
+-Watched it pour as I touched your face
+-Let it burn while I cried
+-'Cause I heard it screamin' out your name, your name
++Refren1.txt
+ 
+ When I lay with you
+ I could stay there, close my eyes
+diff --git a/Refren1.txt b/Refren1.txt
+new file mode 100644
+index 0000000..092689a
+--- /dev/null
++++ b/Refren1.txt
+@@ -0,0 +1,4 @@
++But I set fire to the rain
++Watched it pour as I touched your face
++Let it burn while I cried
++'Cause I heard it screamin' out your name, your name
+\ No newline at end of file
+
+commit 14076dd64f522247fc743069a8c941809d48c497
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:15:38 2023 +0200
+
+    Dodano Zwrotka3.txt
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index 2f339c4..7adf92c 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -2,12 +2,7 @@ Zwrotka1.txt
+ 
+ Zwrotka2.txt
+ 
+-But there's a side to you
+-That I never knew, never knew
+-All the things you'd say
+-They were never true, never true
+-And the games you'd play
+-You would always win, always win
++Zwrotka3.txt
+ 
+ But I set fire to the rain
+ Watched it pour as I touched your face
+diff --git a/Zwrotka3.txt b/Zwrotka3.txt
+new file mode 100644
+index 0000000..7a86600
+--- /dev/null
++++ b/Zwrotka3.txt
+@@ -0,0 +1,6 @@
++But there's a side to you
++That I never knew, never knew
++All the things you'd say
++They were never true, never true
++And the games you'd play
++You would always win, always win
+\ No newline at end of file
+
+commit 708129ca440b88e5573a616719127bdfff6107fe
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:12:14 2023 +0200
+
+    Dodatno Zwrotka2.txt
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index b8b0756..2f339c4 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -1,9 +1,6 @@
+ Zwrotka1.txt
+ 
+-My hands, they were strong
+-But my knees were far too weak
+-To stand in your arms
+-Without fallin' to your feet
++Zwrotka2.txt
+ 
+ But there's a side to you
+ That I never knew, never knew
+diff --git a/Zwrotka2.txt b/Zwrotka2.txt
+new file mode 100644
+index 0000000..233b79f
+--- /dev/null
++++ b/Zwrotka2.txt
+@@ -0,0 +1,4 @@
++My hands, they were strong
++But my knees were far too weak
++To stand in your arms
++Without fallin' to your feet
+\ No newline at end of file
+
+commit 118e54777e4acd1eec03e8bfe20ebc16c2432220
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:10:06 2023 +0200
+
+    Stworzono Zwrotka1.txt
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+index 569c674..b8b0756 100644
+--- a/Piosenka.txt
++++ b/Piosenka.txt
+@@ -1,7 +1,4 @@
+-I let it fall, my heart
+-And as it fell, you rose to claim it
+-It was dark, and I was over
+-Until you kissed my lips and you saved me
++Zwrotka1.txt
+ 
+ My hands, they were strong
+ But my knees were far too weak
+diff --git a/Zwrotka1.txt b/Zwrotka1.txt
+new file mode 100644
+index 0000000..becafbc
+--- /dev/null
++++ b/Zwrotka1.txt
+@@ -0,0 +1,4 @@
++I let it fall, my heart
++And as it fell, you rose to claim it
++It was dark, and I was over
++Until you kissed my lips and you saved me
+\ No newline at end of file
+
+commit 5b6cd4b8d01a1907df503b9fcda78e5ea9706fea
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:07:20 2023 +0200
+
+    Dodano tekst piosenki
+
+diff --git a/Piosenka.txt b/Piosenka.txt
+new file mode 100644
+index 0000000..569c674
+--- /dev/null
++++ b/Piosenka.txt
+@@ -0,0 +1,59 @@
++I let it fall, my heart
++And as it fell, you rose to claim it
++It was dark, and I was over
++Until you kissed my lips and you saved me
++
++My hands, they were strong
++But my knees were far too weak
++To stand in your arms
++Without fallin' to your feet
++
++But there's a side to you
++That I never knew, never knew
++All the things you'd say
++They were never true, never true
++And the games you'd play
++You would always win, always win
++
++But I set fire to the rain
++Watched it pour as I touched your face
++Let it burn while I cried
++'Cause I heard it screamin' out your name, your name
++
++When I lay with you
++I could stay there, close my eyes
++Feel you here forever
++You and me together, nothing is better
++
++'Cause there's a side to you
++That I never knew, never knew
++All the things you'd say
++They were never true, never true
++And the games you'd play
++You would always win, always win
++
++But I set fire to the rain
++Watched it pour as I touched your face
++Let it burn while I cried
++'Cause I heard it screamin' out your name, your name
++
++I set fire to the rain
++And I threw us into the flames
++When we fell, something died
++'Cause I knew that that was the last time, the last time
++
++Sometimes, I wake up by the door
++That heart you caught must be waiting for you
++Even now when we're already over
++I can't help myself from looking for you
++
++I set fire to the rain
++Watched it pour as I touched your face
++Let it burn while I cried
++'Cause I heard it screamin' out your name, your name
++
++I set fire to the rain
++And I threw us into the flames
++When we fell, something died
++'Cause I knew that that was the last time, the last time
++
+
+
+commit f57da90e21ee8537077e6b70589e478ec72a022a
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 15:02:30 2023 +0200
+
+    Usunieto Refren3.txt i zmieniono Piosenka.txt
+
+commit ae10c0aa79e62a1fd54eea63b12f851839257a50
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:48:55 2023 +0200
+
+    Revert "Usunieta 1 linie z Refren1.txt"
+    
+    This reverts commit 2eb249d942d01e4c4600ac4af5742185baeea3a9.
+
+commit 2eb249d942d01e4c4600ac4af5742185baeea3a9
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:47:08 2023 +0200
+
+    Usunieta 1 linie z Refren1.txt
+
+commit 5b1581a8fa36109ac484dd088b8285847481c930
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:45:45 2023 +0200
+
+    Dodano Refren3.txt
+
+commit d9ba2fab39515e28cc99cd25e20ae2d4aea1a5c6
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:44:44 2023 +0200
+
+    Dodano Zwrotka6.txt
+
+commit 561f176a2d1f8628ba126cd5ec93494e085df5b4
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:42:09 2023 +0200
+
+    Dodano Refren2.txt
+
+commit 87b6c3dec5d60771af368819a38b575e14043f94
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:34:40 2023 +0200
+
+    Dodano Zwrotka5.txt
+
+commit dce551987418c36daad4edfa5bdd496973c0254f
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:23:46 2023 +0200
+
+    Dodano Zwrotka4.txt
+    i
+
+commit dfb1a91f0736284ba6397cc024c6ecb7bf07d960
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:22:27 2023 +0200
+
+    Dodano Refren1.txt
+
+commit 14076dd64f522247fc743069a8c941809d48c497
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:15:38 2023 +0200
+
+    Dodano Zwrotka3.txt
+
+commit 708129ca440b88e5573a616719127bdfff6107fe
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:12:14 2023 +0200
+
+    Dodatno Zwrotka2.txt
+
+commit 118e54777e4acd1eec03e8bfe20ebc16c2432220
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:10:06 2023 +0200
+
+    Stworzono Zwrotka1.txt
+
+commit 5b6cd4b8d01a1907df503b9fcda78e5ea9706fea
+Author: woroszek <woroszek@gmail.com>
+Date:   Mon Aug 28 14:07:20 2023 +0200
+
+    Dodano tekst piosenki
